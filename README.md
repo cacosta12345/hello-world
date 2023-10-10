@@ -21,7 +21,7 @@ Here you will find a collection of all my notes for Class 102 & Class 201. Refer
 | [Class 5 Notes](example.com) | [Class 6 Notes](example.com) |
 | [Class 7 Notes](example.com) | [Class 8 Notes](example.com) |
 
-**Class 201**
+### Class 201
 
 | Dream | Big   |
 |-------|-------|
