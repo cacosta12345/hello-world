@@ -14,7 +14,7 @@ Here you will find a collection of all my notes for Class 102 & Class 201. Refer
 
 ### Class 102
 
-|     test     |    test      |
+|     Code     |    Small     |
 |--------------|--------------|
 | [Class 1 Notes](https://cacosta12345.github.io/hello-world/102-notes/class1notes) | [Class 2 Notes](https://cacosta12345.github.io/hello-world/102-notes/class2notes) |
 | [Class 3 Notes](https://cacosta12345.github.io/hello-world/102-notes/class3notes) | [Class 4 Notes](example.com) |
@@ -23,7 +23,7 @@ Here you will find a collection of all my notes for Class 102 & Class 201. Refer
 
 **Class 201**
 
-|  |  |
+| Dream | Big   |
 |-------|-------|
 | [Class 1 Notes](example.com) | [Class 2 Notes](example.com) |
 | [Class 3 Notes](example.com) | [Class 4 Notes](example.com) |
