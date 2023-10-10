@@ -1,1 +1,3 @@
-# hello-world
+# hello-
+
+My first website from scratch for Code Fellows
