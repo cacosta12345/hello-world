@@ -10,10 +10,15 @@ Here you will find a collection of all my notes for Class 102 & Class 201. Refer
 
 ## Table of Contents
 
-Class 102
+**Class 102**
 
 - [Class 1 Notes](https://cacosta12345.github.io/reading-notes/read-class01)
 
 - [Class 2 Notes](https://cacosta12345.github.io/reading-notes/read-class02)
 
 - [Class 3 Notes](https://cacosta12345.github.io/reading-notes/read-class03)
+
+
+**Class 201**
+
+Check out the rest of my [Github Portfolio!](https://github.com/cacosta12345)
