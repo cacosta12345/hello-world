@@ -9,3 +9,11 @@ My name is Christopher Acosta (he/him). I live in La Mirada, CA. I am an Army ve
 Here you will find a collection of all my notes for Class 102 & Class 201. Refer to the table of contents below.
 
 ## Table of Contents
+
+Class 102
+
+- [Class 1 Notes](https://cacosta12345.github.io/reading-notes/read-class01)
+
+- [Class 2 Notes](https://cacosta12345.github.io/reading-notes/read-class02)
+
+- [Class 3 Notes](https://cacosta12345.github.io/reading-notes/read-class03)
