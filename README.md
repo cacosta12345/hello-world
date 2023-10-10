@@ -13,7 +13,8 @@ Here you will find a collection of all my notes for Class 102 & Class 201. Refer
 ## Table of Contents
 
 ### Class 102
-|  |  |
+
+|     test     |    test      |
 |--------------|--------------|
 | [Class 1 Notes](https://cacosta12345.github.io/hello-world/102-notes/class1notes) | [Class 2 Notes](https://cacosta12345.github.io/hello-world/102-notes/class2notes) |
 | [Class 3 Notes](https://cacosta12345.github.io/hello-world/102-notes/class3notes) | [Class 4 Notes](example.com) |
