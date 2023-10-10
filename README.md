@@ -1,3 +1,11 @@
-# hello-world
+# Hello-World
 
-My first website from scratch for Code Fellows
+## Intro
+
+My name is Christopher Acosta (he/him). I live in La Mirada, CA. I am an Army veteran. Prior to software development I worked in construction, warehouse laborer, and wildlife habitat conservation. I have some experience in HTML, CSS, JavaScript, REACT, C#, and SQL. My OS is windows 10 pro. I look forward to learning new skills and start a career in Software Development!
+
+## Description
+
+Here you will find a collection of all my notes for Class 102 & Class 201. Refer to the table of contents below.
+
+## Table of Contents
