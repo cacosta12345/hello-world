@@ -1,148 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chris' Lab Page</title>
-    <style>
-       
-        body {
-            margin: 0;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-
-        .heading {
-            margin: auto;
-            padding: 10px;
-            text-align: center;
-        }
-
-        /* TOP NAV */
-        .topnav {
-            overflow: hidden;
-            background: rgb(2,0,36);
-            background: linear-gradient(90deg, rgb(0, 36, 16) 0%, rgb(9, 121, 74) 35%, rgb(9, 211, 2) 100%);
-        }
-
-        .topnav a {
-            float: left;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        .topnav a:hover {
-            background-color: #ffffff;
-            color: black;
-        }
-
-        .topnav a.split {
-            float: right;
-        }
-
-        /* SECTION 1 */
-        section.sec1 {
-            background-color: #ffffff;
-        }
-
-        section.sec1>div.bg {
-            margin: 10px;
-            border-radius: 10px;
-            background-image: url("https://tinyurl.com/3s5tcsrx");
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 100vh;
-        }
-
-        section img {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        img.sec-1-img {
-            border-radius: 5px;
-            margin-bottom: 5em;
-            width: 50%;
-        }
-
-        .main-para > div {
-            text-align: center;
-            padding: 0.01em 16px;
-            margin: 0 20px;
-            background-color: #E7E9EB;
-            box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-            border-radius: 5px;
-        }
-
-        .sec1 .main-para > div p {
-            margin: 16px;
-            padding: 10px;
-            text-align: justify;
-            background-color: #ffffff;
-            border-left: 4px solid #00c3ff;
-        }
-
-        /* SECTION 2 */
-        section.sec2 {
-            background-color: #ffffff;
-        }
-
-        section.sec2 p {
-            margin: auto;
-            padding: 10px;
-            text-align: justify;
-        }
-
-        .box {
-            display: flex;
-            align-items: flex-start;
-        }
-
-        /* grid */
-        .grid-container {
-            display: grid;
-            grid-template-columns: auto auto auto;
-            gap: 10px;
-            padding: 10px;
-        }
-
-        .grid-container > div {
-            text-align: center;
-            padding: 0.01em 16px;
-            margin: 0 20px;
-            background-color: #E7E9EB;
-            box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-            border-radius: 5px;
-        }
-
-        .grid-container > div p {
-            margin: 16px 0;
-            background-color: #ffffff;
-            border-left: 4px solid #00c3ff;
-        }
-
-        /* FOOTER */
-        footer {
-            padding: 20px;
-        }
-
-        footer p {
-            float: right;
-            margin: auto;
-            padding: 10px;
-        }
-    </style>
+    
 </head>
 <body>
+    <script>
+        function changeBackgroundImg(){
+            var element = document.getElementById("backgroundPic");
+            if (element.style.backgroundImage.includes("https://tinyurl.com/3s5tcsrx")){
+                element.style.backgroundImage = "url('https://tinyurl.com/4nv635ze')";
+            } else {
+                element.style.backgroundImage = "url('https://tinyurl.com/3s5tcsrx')";
+            }
+            console.log("click worked");
+        }
+
+        var button = document.getElementById("myButton");
+        button.addEventListener("click", button1Click);
+    </script>
+    
     <!-- Header -->
     <header>
         <!-- Nav -->
         <nav class="topnav">
             <a class="active" href="/"><h1>Chris' Lab Page</h1></a>
             <a class="split" href="https://ekowyawson.github.io/hello-world/"><h1>Check out Ekow's Page</h1></a>
+            <div style="font-size: 50px; text-align: justify; text-align: center; padding-top: 16px; color: aliceblue;">
+                
+            </div>
         </nav>
     </header>
 
@@ -151,7 +40,7 @@
 
         <!-- Section 1 -->
         <section class="sec1">
-            <div class="bg">
+            <div id="backgroundPic" style="background-image: url(https://tinyurl.com/3s5tcsrx)"; class="bg">
             </div>
 
             <div class="heading">
@@ -198,11 +87,16 @@
                 </div>
             </div>
         </section>
+        <div>
+            <button type="button" id="myButton" onclick=changeBackgroundImg()>Click me to change labs picture!</button>
+        </div>
+        
 
     </main>
 
     <!-- Footer -->
     <footer>
+        
         <div>
             <p>
                 Copyright © ChrisAcosta 2023
