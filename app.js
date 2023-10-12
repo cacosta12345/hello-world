@@ -1,4 +1,9 @@
+
 alert("You can change the picture by clicking it!")
+
+var button2= document.getElementById("bottomButton");
+button2.addEventListener("click", bottomClick);
+
 function changeBackgroundImg(){
     var element = document.getElementById("backgroundPic");
     if (element.style.backgroundImage.includes("https://tinyurl.com/3s5tcsrx")){
@@ -6,7 +11,31 @@ function changeBackgroundImg(){
     } else {
         element.style.backgroundImage = "url('https://tinyurl.com/3s5tcsrx')";
     }
-    console.log("click worked");
+    
+}
+
+function populateImages(number){
+    const imageContainer= document.getElementById("imageContainer");
+    for (let index = 0; index < number; index++) {
+        const image = document.createElement("img");
+        image.src = "images/champpic2.jpg"
+        image.alt = "a picture of a dog"
+        imageContainer.appendChild(image)
+        
+    }
+}
+function bottomClick(){
+    var userAnswer = prompt("How many do you want? 1-6")
+    
+    var userNumber = parseInt(userAnswer)
+    
+    if (!isNaN(userNumber) && userNumber >=1 && userNumber <=6){
+        console.log(userNumber)
+        populateImages(userNumber)
+        return userNumber;
+    } else {
+        alert("Please enter a valid number")
+    }
 }
 
 function askName(){
@@ -23,12 +52,4 @@ function askName(){
     }
 }
 
-var button = document.getElementById("myButton");
-button.addEventListener("click", button1Click);
 
-function bottomClick(){
-    var newUrl = "https://www.akc.org/dog-breeds/labrador-retriever/";
-    window.location.href = newUrl
-}
-var button2= document.getElementById("bottomButton");
-button2.addEventListener("click", bottomClick);
