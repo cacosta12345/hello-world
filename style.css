@@ -126,3 +126,13 @@ footer p {
     margin: auto;
     padding: 10px;
 }
+
+button {
+    background-color: #038318;
+    color: #E7E9EB;
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-style: groove;
+}

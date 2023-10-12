@@ -9,6 +9,7 @@
 </head>
 <body>
     <script>
+        alert("You can change the picture by clicking it!")
         function changeBackgroundImg(){
             var element = document.getElementById("backgroundPic");
             if (element.style.backgroundImage.includes("https://tinyurl.com/3s5tcsrx")){
@@ -21,6 +22,14 @@
 
         var button = document.getElementById("myButton");
         button.addEventListener("click", button1Click);
+
+        function bottomClick(){
+            document.write("More content coming soon!")
+        }
+        var button2= document.getElementById("bottomButton");
+        button2.addEventListener("click", bottomClick);
+
+
     </script>
     
     <!-- Header -->
@@ -30,7 +39,12 @@
             <a class="active" href="/"><h1>Chris' Lab Page</h1></a>
             <a class="split" href="https://ekowyawson.github.io/hello-world/"><h1>Check out Ekow's Page</h1></a>
             <div style="font-size: 50px; text-align: justify; text-align: center; padding-top: 16px; color: aliceblue;">
-                
+                <script>
+ 
+                    var name = prompt("Your name:", "");
+                    document.write("Welcome ", name);
+                     
+                    </script>
             </div>
         </nav>
     </header>
@@ -40,7 +54,7 @@
 
         <!-- Section 1 -->
         <section class="sec1">
-            <div id="backgroundPic" style="background-image: url(https://tinyurl.com/3s5tcsrx)"; class="bg">
+            <div id="backgroundPic" onclick="changeBackgroundImg()" style="background-image: url(https://tinyurl.com/3s5tcsrx)"; class="bg">
             </div>
 
             <div class="heading">
@@ -87,9 +101,12 @@
                 </div>
             </div>
         </section>
-        <div>
-            <button type="button" id="myButton" onclick=changeBackgroundImg()>Click me to change labs picture!</button>
+        <div style=" display: flex; justify-content: center; align-items: center;">
+            <button onclick="bottomClick()" id="bottomButton" type="button">Do you want to know more?</button>
+
         </div>
+        
+       
         
 
     </main>
