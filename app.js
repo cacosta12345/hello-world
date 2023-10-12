@@ -10,11 +10,17 @@ function changeBackgroundImg(){
 }
 
 function askName(){
-    var name = prompt("Your name:", "");
-    if (name.length < 1){
-        name= prompt("Please enter your name:", "")
+    var name;
+
+    while(true){
+        name = prompt("Your name:");
+        if (name === null || name.trim() === "" ){
+            alert("Please enter a valid name.")
+        } else{
+            document.write("Welcome ", name);
+            break;
+        }
     }
-    document.write("Welcome ", name);
 }
 
 var button = document.getElementById("myButton");
